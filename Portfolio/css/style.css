@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.clr {
+  clear: both;
+}
+
+header ul {
+  float: right;
+  margin: 30px 50px 0px 0px;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+}
+
+.about {
+  margin-top: 210px;
+}
+
+.about-me {
+  width: 70%;
+  float: left;
+}
+
+.about-me h1 {
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.about-me p {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.about-me button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #ff6464;
+  border: 0;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.about img {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  float: right;
+}
+
+.recent-posts {
+  background-color: #edf7fa;
+  margin-top: 70px;
+  padding-top: 15px;
+  height: 360px;
+}
+
+.margin {
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #21243d;
+  display: inline;
+}
+
+.recent-posts a {
+  text-decoration: none;
+  color: #00a8cc;
+  float: right;
+  padding-top: 5px;
+}
+
+.recent-posts .card1,
+.recent-posts .card2 {
+  margin-top: 13px;
+  width: 45%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+}
+
+.card1 {
+  float: left;
+}
+
+.card2 {
+  float: right;
+}
+
+.card1 h1, .card2 h1 {
+  font-size: 26px;
+  list-style-image: 38px;
+}
+
+.date {
+  padding: 20px 0;
+}
+
+span {
+  margin: 0 25px;
+}
+
+.card1 p, .card2 p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.future {
+  padding-top: 20px;
+}
+
+.works {
+  margin-top: 30px;
+}
+
+.works img {
+  display: inline;
+  width: 25%;
+  float: left;
+}
+
+.works h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.inline {
+  width: 70%;
+  float: right;
+}
+
+.works button {
+  border-radius: 16px;
+  font-size: 18px;
+  padding: 3px 10px;
+  background-color: #142850;
+  color: #fff;
+  border: 0;
+}
+
+.label {
+  margin-left: 40px;
+  display: inline;
+  color:  #8695A4;
+}
+
+.text {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+hr {
+  margin: 15px 0 25px 0;
+}
+
+footer {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 24px;
+}
